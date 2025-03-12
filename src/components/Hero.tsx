@@ -59,7 +59,7 @@ const Hero = () => {
           <div className={`relative ${isVisible ? 'animate-fade-left' : 'opacity-0'}`}>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1606664515524-ed2f786a0acc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                src="https://a.d-cd.net/I_yYncLg2ElEIkU_A_9JsCVYPnw-1920.jpg" 
                 alt="Luxury Car" 
                 className="object-cover w-full h-full"
               />

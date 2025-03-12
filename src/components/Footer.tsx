@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,26 +18,26 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/people/Nursultan_Motors/100060828992435/" 
                 className="p-2 bg-avtodiller-DEFAULT/10 rounded-full hover:bg-avtodiller-accent/80 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5 text-black" />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/avtodiller.kz/?igsh=c3YdmszYjVtc2sx&utm_source=qr" 
                 className="p-2 bg-avtodiller-DEFAULT/10 rounded-full hover:bg-avtodiller-accent/80 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5 text-black" />
               </a>
-              <a 
-                href="#" 
-                className="p-2 bg-avtodiller-DEFAULT/10 rounded-full hover:bg-avtodiller-accent/80 transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5 text-black" />
-              </a>
+<a 
+  href="https://wa.me/c/77017308463" // замени на свой номер
+  className="p-2 bg-avtodiller-DEFAULT/10 rounded-full hover:bg-avtodiller-accent/80 transition-colors"
+  aria-label="WhatsApp"
+>
+  <MessageCircle className="w-5 h-5 text-green-500" />
+</a>
             </div>
           </div>
           
@@ -92,21 +92,21 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-avtodiller-accent mt-0.5" />
                 <div>
-                  <p className="text-black font-medium">+7 (777) 777-7777</p>
+                  <p className="text-black font-medium">+7 (701) 730-8463</p>
                   <p className="text-sm text-gray-700">Пн-Сб: 9:00 - 18:00</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-avtodiller-accent mt-0.5" />
                 <div>
-                  <p className="text-black font-medium">info@avtodiller.kz</p>
+                  <p className="text-black font-medium">zhanic@mail.ru</p>
                   <p className="text-sm text-gray-700">Свяжитесь с нами</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-avtodiller-accent mt-0.5" />
                 <div>
-                  <p className="text-black font-medium">ул. Кунаева 10, Астана</p>
+                  <p className="text-black font-medium">г. Астана, ул. Тынышбайулы 8</p>
                   <p className="text-sm text-gray-700">Казахстан</p>
                 </div>
               </li>

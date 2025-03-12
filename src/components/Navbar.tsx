@@ -49,11 +49,11 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center">
           <a 
-            href="tel:+77777777777" 
+            href="tel:+77017308463" 
             className="flex items-center gap-2 btn-primary"
           >
             <PhoneCall className="w-4 h-4" />
-            <span>+7 (777) 777-7777</span>
+            <span>+7 (701) 730-8463</span>
           </a>
         </div>
 
