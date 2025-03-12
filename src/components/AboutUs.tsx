@@ -83,7 +83,7 @@ const AboutUs = () => {
               {/* Main image */}
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://avatars.mds.yandex.net/get-altay/467304/2a00000185a695629499c741ce5e0705522f/XXXL"
+                  src="https://avatars.mds.yandex.net/i?id=8bf68b2b94cacd2a37302aa417ffd42ae14b9efd-12528274-images-thumbs&n=13
                   alt="AVTODILLER team" 
                   className="w-full h-full object-cover"
                 />
