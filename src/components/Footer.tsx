@@ -1,5 +1,6 @@
 
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,12 +32,14 @@ const Footer = () => {
               >
                 <Instagram className="w-5 h-5 text-black" />
               </a>
-<a 
-  href="https://wa.me/c/77017308463" // замени на свой номер
+              <a 
+  href="https://wa.me/c/77017308463" // Замените на свой номер
   className="p-2 bg-avtodiller-DEFAULT/10 rounded-full hover:bg-avtodiller-accent/80 transition-colors"
   aria-label="WhatsApp"
+  target="_blank"
+  rel="noopener noreferrer"
 >
-  <MessageCircle className="w-5 h-5 text-green-500" />
+  <FaWhatsapp className="w-5 h-5 text-green-500" />
 </a>
             </div>
           </div>
