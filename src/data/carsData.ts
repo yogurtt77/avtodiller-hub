@@ -28,7 +28,7 @@ export const cars: Car[] = [
     year: 2021,
     price: "12 500 000 ₸",
     mileage: "35 000 км",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/i?id=7118a7437dae2827ad8bd2e26daf303fa4e93a13-7185373-images-thumbs&n=13",
     condition: "Отличное",
   },
   {
