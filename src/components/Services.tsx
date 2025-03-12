@@ -51,6 +51,7 @@ const Services = () => {
         if (entry.isIntersecting) {
           document.querySelectorAll('.service-card').forEach((card, index) => {
             setTimeout(() => {
+              card.classList.remove('opacity-0');
               card.classList.add('animate-zoom-in');
             }, index * 100);
           });
