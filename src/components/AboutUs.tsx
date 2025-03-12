@@ -22,9 +22,11 @@ const AboutUs = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             if (entry.target === textRef.current) {
+              textRef.current?.classList.remove('opacity-0');
               textRef.current?.classList.add('animate-fade-right');
             }
             if (entry.target === imageRef.current) {
+              imageRef.current?.classList.remove('opacity-0');
               imageRef.current?.classList.add('animate-fade-left');
             }
           }
