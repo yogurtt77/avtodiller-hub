@@ -58,7 +58,7 @@ export const cars: Car[] = [
     year: 2021,
     price: "24 000 000 ₸",
     mileage: "30 000 км",
-    image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/get-autoru-vos/5088607/6fcc476f5fa19d9ad3b8a26ae1b78354/1200x900",
     condition: "Отличное",
   },
   {
@@ -68,7 +68,7 @@ export const cars: Car[] = [
     year: 2020,
     price: "21 000 000 ₸",
     mileage: "45 000 км",
-    image: "https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://avatars.mds.yandex.net/get-autoru-vos/2056940/270058eaa774a9aed7128133d701b8ae/1200x900",
     condition: "Хорошее",
   },
 ];
