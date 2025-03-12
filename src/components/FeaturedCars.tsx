@@ -49,11 +49,11 @@ const FeaturedCars = () => {
 
         {renderCarousel()}
         
-        <div className="text-center mt-8">
-          <a href="#" className="btn-primary inline-flex items-center justify-center px-8 py-3 text-lg font-medium">
+{/*         <div className="text-center mt-8">
+          <a href="https://www.instagram.com/avtodiller.kz/?igsh=c3YdmszYjVtc2sx&utm_source=qr" className="btn-primary inline-flex items-center justify-center px-8 py-3 text-lg font-medium">
             Смотреть все автомобили
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
