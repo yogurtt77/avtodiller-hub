@@ -204,7 +204,7 @@ const FeaturedCars = () => {
         </div>
         
         <div className="text-center mt-8">
-          <a href="#" className="btn-primary inline-flex">
+          <a href="#" className="btn-primary inline-flex items-center justify-center px-8 py-3 text-lg font-medium">
             Смотреть все автомобили
           </a>
         </div>

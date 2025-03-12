@@ -104,11 +104,11 @@
   }
   
   .btn-primary {
-    @apply px-6 py-3 bg-avtodiller-accent text-white rounded-md shadow-md transition-all duration-300 hover:shadow-lg hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-avtodiller-accent focus:ring-opacity-50;
+    @apply px-6 py-3 bg-avtodiller-accent text-white rounded-md shadow-md transition-all duration-300 hover:shadow-lg hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-avtodiller-accent focus:ring-opacity-50 font-medium;
   }
   
   .btn-secondary {
-    @apply px-6 py-3 bg-transparent border border-avtodiller-accent text-avtodiller-accent rounded-md shadow-sm transition-all duration-300 hover:bg-avtodiller-accent/10 focus:outline-none focus:ring-2 focus:ring-avtodiller-accent focus:ring-opacity-50;
+    @apply px-6 py-3 bg-transparent border border-avtodiller-accent text-avtodiller-accent rounded-md shadow-sm transition-all duration-300 hover:bg-avtodiller-accent/10 focus:outline-none focus:ring-2 focus:ring-avtodiller-accent focus:ring-opacity-50 font-medium;
   }
 
   .animate-on-scroll {

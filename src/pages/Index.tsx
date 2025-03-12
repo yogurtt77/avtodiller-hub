@@ -8,6 +8,11 @@ import AboutUs from "../components/AboutUs";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
+// Импортируем загруженные изображения
+const serviceImage = "public/lovable-uploads/54f6f243-dedd-4ca3-9894-72a14f9ecf86.png";
+const carsButtonImage = "public/lovable-uploads/2634c40f-42f7-47c2-900a-968aafaba2d4.png";
+const footerImage = "public/lovable-uploads/22462e16-7adb-4fc3-b4f1-b8b8d2b06698.png";
+
 const Index = () => {
   useEffect(() => {
     // Smooth scroll for anchor links
