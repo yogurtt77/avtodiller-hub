@@ -83,7 +83,7 @@ const AboutUs = () => {
               {/* Main image */}
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1560701795-48dd7ad5445b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://avatars.mds.yandex.net/get-altay/467304/2a00000185a695629499c741ce5e0705522f/XXXL"
                   alt="AVTODILLER team" 
                   className="w-full h-full object-cover"
                 />
