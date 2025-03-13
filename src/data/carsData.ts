@@ -71,4 +71,14 @@ export const cars: Car[] = [
     image: "https://avatars.mds.yandex.net/get-autoru-vos/2056940/270058eaa774a9aed7128133d701b8ae/1200x900",
     condition: "Хорошее",
   },
+  {
+    id: 7,
+    make: "Lada",
+    model: "Niva",
+    year: 2020,
+    price: "10 000 000 ₸",
+    mileage: "45 000 км",
+    image: "https://avatars.mds.yandex.net/i?id=6fbca4bce79e2619fb3fc8d2df57492beed73ab2-9857691-images-thumbs&n=13",
+    condition: "Хорошее",
+  },
 ];
